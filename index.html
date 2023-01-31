@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Contect|AHAGURU</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="share__button" link="https://fullstackdevel-link-tree.netlify.app/">
+      <svg width="24" height="24" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z"
+          fill="black"></path>
+      </svg>
+    </div>
+  </header>
+  <div class="container">
+      <!-- profile photo and discription  -->
+        <div class="image__container">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///8Ak90Aj9wAjtwAkt4AjNsAlN0AitoAlt/1+/77/v8YneGg1vMAl9/P6/kAiNrH5feAx+3i8/vv+P294vXb8Pohn+Bhuunf8vs7quRctuio2fPn9vx0v+uw3vUypuOOze9FruVpvuqW0PB3xOxNsuZauOhruekAhNmUze9yverB4/ZdseZEpeJQrOWj2fJjZF6gAAASTUlEQVR4nNVdiXabOhAN0gAGDDZm8c7iJWnrtu///+6B4zgGa0YSxiG9p+l5SyzrIiGNZu6MXl56g7uZBev94XWZ+ld4vveONK1/Lsg/saxRVn8+cHzHarV6fce8xu4ThwvCMNwnbn/dlyKJw2Xq+f5oZIBxB7hB9f+h8e+3sKo/I6uGYYzOqP5x9AH/8jOqHl79k4enL+K4iYul54uoPRfge2H8fHpOfMgN1h6ML6II3CrX0XMJJtt0EHKfJL237In8ZsVyUH5njoYXbp7Fbz/s+H0AYJk9Y8mJstL/DvzO8MKkd4LBzh+a1g3AWPb8Nkahx4dm1QTAvk+CwdvX734ygLfv72Uc59+PYAWv6Inf4vAt+VWjyMa9EJwevye/GmkfRtwiH5oGhePjJlyWsqFZUGCvjxJcp0NzoAGjB7fFwBuaggxs/pCNGnvfd5G5AEaPrKfB8tsTrLDsvthE33ibuIG17krQOXwzSxQBdB7E9fd/Cd9hBd0IJvk/QtBgodOJ4evQHVcGpJ0Gcap23gXGuGnbZgVbDFMGfgvGWQV+/vsT9GwCv8uuH80V5igw2/by5erXtoVfFd5qzOfzt1XtxV594OLkPpafWLZw4yPPa5d5mhom3Zut/jR113Jjphq+dL4/Jeo2hVvDuSK6YPOO2Wy2eEdyRfCO7NXnBEe21LdrnJVsCCt+eTF9llevjc04J4YR0ql2i3FKM7S47YdBtyWsE9xgaeNd8gvtBl8l77aZFv1782gsStwAgaNuawk9hAyOwVcGut4R4ydVWOp2Z08TZOHsKRxoRG82yjDXnFEb0uRmbPz1A1hjOkIH0dP015yoScqMcBiCL26Ovom+5iFxTMQnGA+fHL/DsUN7ZRVaDUVzCyc41BStsUefPIRaDQX4qQJgPhzBlwJlyA5aDa1xo5vlHc9ivYBguNVq6IASBOOZAWYpcIbwptXQESVoHofYCK/oi2GEv4bmf8/qvBLwtRR+6bSTYCsp8PKrzhJCOCm6H4LWSjNFpwL8fFbnlRAbeAhFa7fIsHZ4rn8M6xHJ0UQJjgqNhpwCY2h3cBb0h2hLuGu0rLYoRBiC0U/EtRvckJLyeDq7WHRAWuLp6Wn9l/dqzwgPvN7pabNDxtBeDWVyu4txTvgw6hOwTnMzxINhTX6JTVL3w19W+8o+HWTTU3L/2rpJ/IHTGbHYmTWLb5CFJUhcpjsthsjx15qIbb9FWEt55/P56+u7N/TdB5rn3uG+8074KR1+RykydJ3xjcQ49Tmj5XTgaYWfFqUWwyD/8WNyRsPJzU3zx+5+DGdLmzVc3JPfoqm/2dm3Hm/8MHdhqBd90hvD2dIEwxJ1wZoIduGkZZYACKMqs6NeYO+gtY3NVuKVRshwNke9Q8ZEoDubeo3GLSZe5pM/Wgw1vTQbJGIhYhhtcWc7sPuXwx2PGr9vmX+Fh5VAS+LCdnqLfHRQH0PKoQP+/ZN1wqZ+DPhc2DlNhYTmPu0UyrtF+61qgAuietHv5tMDEMoL3bWOVBfmegRfXv5Dus3a0z0p8ZewOkuWgqX0T8N4thgInSJOYWkwzLWPdDF6tmguWclvMqpnr+6bPrUGnXnCSeoc1OXkkK61fWMB6u5pKAFnJRXSq/eB+6Zb7kDgR2HvImQ5F35PBxntBvV4szz+eOZRXNJxWZYK9oF50/gCKIQ9iP4qbxbQRbnnop4oo87mmNWYzmV5CVxk7i+bLy4gq+Dsj/IYCo0+KUKcIWP+2exMucQUNsy/969YlDZP6cwXH3oS1e2QL7u5bzNChgGs1k7I1BH1BBRYUiefN38H8WzFnhpDyDs6NwmvvjIqc/9+BRi3ZjYm9VHcDqHs6jeKdjJjXg7zj2ACHlqvocCuOwP3/N6CL7s7xrRMCoShwBxzjpPGo2M+0kW17bBcdCb4kjysKwUm2KaCnDcY8iXiXZmrbBbzh6QSD+suORcscmu/uYCYr8hCsaKswTOACxwIOggeFV6y9H4I3bDV8QmmKVxKGIL1eFqXRE8jA4js/ejNbkxS+IHEedwcd26fkfaQmpdJNFFShoJVMmhLfibI0XxDMgRj1YcYyw0f2jBYKljnstbUBx8xSJKUYFidJfqJLTy264PIr7Bv7gEgfAzn7/YIhnlvjndaFiUhCKKFYNdys7ESca+c8GRO0JUGEXC7q6BBeK6YtWYFmJijOsMNDih6lIJ0TycB+yAYnaCdxGgXyDf/h6c7er0Godsrgzps0STNJq0xBCxYN0YZ6kVg5Ii7mafAU8EkdQ6t6BFD9ec4Q70IjALGnTLXgIl0U0l7NwQ0/xNn2EELTMMdd5moIAw5B+1TLUPP5wTDXhPUzzh12BbNlcigXrfcAhZD1UcoQ80omhqmq5EuRyZa0aNtqxnLfMOiDQTDZ1SnmRWy+GuboDCctGnvPZaJhsQIhs+RuwQHnYomlr0S9Ty4mwr8J7Z5fznDF2e6SpXnKrLN7du9BgN1Vn89w+otqsbRv69jJQL3hPb0a/uj1Yr7nRjWCPbzMpcmtAEIN2XnzphGor81hmJYjeRiWqwkHLl4uUvu9D4ML/gwHMOXWjuDxE8/+sB+i2xjd3+3HhMywEEZViCzTWAkfLuiow3QzJmc4IrxoRnuRwRDLnJ119qKSR42sR2jB6GhGRJK/mqSirfxzMinThvoNwzNEFfy1xlDwi44W8wlI8TADF3CFgcuLhcz22k5cAdmGBBDCIbY9o/HWpKeYRluKBEBQ0Ita71I7bAMSbUSL4TLhxvrxcEGZei84fwqM0XcgSDWcwEOyjCg4hmTAumx5sl8UIZzYgi5h7xuYaH3JQTDp2vpySG0xQKnl01Z6H0L6hEGraSDLnCp2DDq/zyNND1kmYWt10/wtTVxokqb8RViaK5/aGaixD7KsHiYAwm37S9rDiFyZndDXYZ4dG2klwyrjTHlrBHJS977m9tCByoOIkL6cIU9EhEVjBKHDGtknGnWxdugDKF8nAaBNSU2M3PsNBSagL6iYrg5psWAvAceKMi4N17IaLOsH8xOy6r5i6pNvB6IYHAL6i3E82fPgVFgex15wQqdpf1GSJughxA5NtXhq3PYkI2KoAWir1vUL4vJN/oALhw2atU61t/F8V0NDuA1YRCbNy7Vt55n1JDFzcBGfZ/XNKCmq42xH0RuMp6o0kW3rgayMhZwdCF199iEmxCbN64gECmPe4GLVxWpv3aEHo+iOcLQmmzx0cDTnuBZeay08oTjNssCS0KzJnN8NDZo6ho8IpulgJdrqL/VwkvWZJgm3ZoQoxH9Rhk+qSTAiZSd4AtptbOh8WP7iH/KwbcLkUD+cURzyl5D9egv9wkWtwyJ+eai2wWM+pR9XUGXajVzfLpl6EnPsktcBesS3/iMxTQhi7IzQgHi7lAD0zKpakV34ptPPGMxDalgEwBRLGNBCLZ5TihHErRumXbtOQXMyKgvwxxsNQgZpTi37fqdaC53t2qsJDZk8gNwojydsyU09+ATXlQsF7l+Mnp1yxRAazA5kn12RvKX0msTu+iLs0ezN2HV82IalQQ/caLoFXRyEaCKoQoxzrDvF5GKh9YHX8rHtKPqkVgmVX5xgRdMQh1C3UAXMgWgSgwucspQsEyqYtEG/yzv1SvsYNV43kG7CTNS8WfxXwRDd4eub2zXpyeDXmYY6VNwwgnNkHTAZWgeNfRZ2HBGVoQGm/SgBUsy1dVihNlWfRq19wxBNYrOIKUzmMDrA2tZsjeZpTxDnw+MqEVYD7RWHyzylScD/ufPk4W1nBDfSzvUJxfATU7jklwLbXKnkKcwSoKBuIcdKENRFYssLH1ahciIY2ENImni0lHcu1PjhD8hzZK693DW25xxiVoWOF0zxZXedQn0xrbAU2VBUDVFA1E2HylI15mkPN0MZKnEYBZUA274A/2o90gV1WSeqlwjh1Sw+uzff5L7GmqGdLhzTWynnd1RbjInb1n47J0tuUeqVWpH2AZ/JVd94pzfOUcvGiuN37l3kqeIh+Jv2sAyLN/h4sU8QS8eeUWyU81VA5N+/EpFgoBJ6naE6HLQ7QTljH3l3Bi0GMIHlOqtyfa1GD1fdGKYbNXT1IhUiQuUSneAuAzWFbMSDZSKtdY0wVKVXoWJtAKcWlFALB//AgctOtthDE/4rQP34KnsPVdYZ+p+/qCtIgetOgt/dOMzsU6WIZNLr8KJUksTsRz1kyGqb1tqMjxpJcOa0qU6OUprk5whTPlWYkgb/XfQy9mWnAprSI3uj6aO5FA4qMgMXrX2w1jrrliwpfZE9Ca1Zy4MaX8EsZZqFbuUXAvUbpvLy71OVecEWkXpHWh01ZAYxU1oVvhAsn4aoD1Qtx2lXZ8r3BmlIXZM9C7iRBK3GphRJT+brQlzoi9wM6KKvoYvqtDhV9mjClfTxqpDWI0hcSNzTBSpGalv+Bu9OcpE5SDaTc7J2uLN9kboi7j2TbwGkNTk+MR/egRVZNZaBXIZUufCyfASNfVmoXw83JAShDYsSnRx7dtBJ3ufjYT7xaIgS0NqKOOpGO09KH3IFQn18O/B/btESycIwSbFH57ya0jdXHXT4CWtlSt50wtFe+bauLXKbiybKIjDVFJj3lC/C0Z+rTjwyWSU1mLJlPFC5aHpHFLev8L0j0V2wX6+tGSVUUFjktKhs3o1N/LDOL5cBZop2BGCnG0Vjvbl6lg+seWOMI0rOSVbBXBejqd66hXclJT0+gKV39WowD6lv5TneLY1hnbtx2dAPcpNKDpqfizscAPtr25DqEXwVdnqJu/dBo8+nYoR620VnaBRhIc6+Jq5yrpyh53Ulf8wAEs+ukdEqGLB7FSPSc0B9RhBjfLWd2WNbprRO0N/wDmouWcegoaYZoqf7U0V80zQomIV7gegdbNxiIZ4icoxFKLt8xdSOpbTAi4ksX91Eqlq3ivSAUyrgLeLvoag4yO4wY7WhylaLFQbvlYmN+6B4t3qS7Zr6jWRhsXqwTLoQEluBciwcwWMOklUN+SVFPWbHYUPTWNIdesWYAsN6ySqctdohnk9vc5CS1fvwN1uQ1d0WWCHX/any1YxW1J+lY+AqrKv+K4FQ/+WAPRsyDrJ/UPqch9+dYt2LBMOxlxfBrXFLqpk6obfJxKqPvVtNDvW9gHUXfJ1vPgf+NUnQ2dHBgxvdTML7SUVRsdO9T7esNBcF4aZx3CfVkvxOiu0XkYw0qKbAqpPhknJKaddS7HuTqWSt2tnAPxd0FEd9NbjLJ1Tx0KRqmBdTVU5SQBreeieboi+hxpHzAtisrfCjIxNts1lTkPwVj+TB9TA2FpqcN3dYkFG7TEHtXM6lB4XmavVfwDGR+Uh2zykdg7R/VCrPJ700ETUW4mm+23u+6Pz+2acSy9UP9bI98rDPn44zbDAROq65hGZ5S1LHXCDU/Zzd8zztHasp2m+XG1/ZqdHJucVqF2qeWHigtrrDZWUT9fZ1FcIT6fTIEgWkdOXEB/3tNF5Ii0EpeSu5f7zIVWBe0vBVk+1TY50nEF03cxXAT/jG6ZyznskI9j15rdegNyJe6aoKKpKSokogc43eDYKPJ0CgEoNvCJZyUJhg13Gfgbl1OeGXDbzsjnKrJJuXsneQEYPmRFKHn80zmVBCuSS0S9DhFyhfqHo0wK92U6atgAK4punwqEzfJlR4KO4WZfyazp1qyX2D7KOZb0t5ohtuFinptyBP6LSfL8GEemkPrtHtuu746ebjEtDIa+m11zWroilUgxm5Yfx6dO7uAnWYQkyucsZXGE1fjocqfISDG5zr1xti/3PfXFYLVNuK4Z5BZdyD4BY6QZzxk0TLMsyuCm95vj6aL7DHH2pw8Bq/TV0Y0fPr4arih5uxRU/DjqR4gsx07ilXYPgSHhb0DCIta+rUiAIx4GNmQbomgLdGHZMf3wSnFXvDAc99QpApL13AvR3E2pfyPolqKFZ+jIcetwynnO53aOYUbcB6BL8Ljt9E45e4gxB8DtO0TOcfiaqhgD7y+F0um/0nxnBM6ZaaZYiWIdvtg+2Efx6bKYu14P6RlUQadRUaAP44TuZoiiCeTc7HIxc8wKLwbDZU3eQoPAO33qJacCNj3pvY3Xw9141b3MaGG5cSq8aveHnL8N/4gVsYLMvR0oumYpfuf/3+L3UPt/9PGXVuorTrCYng3S+n/1T87OBxfqQ+yOEIxi+VxbZk8q/fxmcIC5Wqfcpdzn/XYtdvPQ4nv6Ts/MObjSbZsXhdZnnFdWz2uW4K9bT2be2Xv4Hsj5OCtldh2MAAAAASUVORK5CYII="
+            alt="my picture">
+        </div><br>
+        <h1>AhaGuru Self Study Courses </h1>
+        <h5 style="text-align: center;">Recorded concept videos, Solved video examples and Graded practice problems .</h5>
+        <br>
+      <!-- profile photo link opart start   -->
+
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">LIVE JEE MAINS CRASH COURSE</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">Electric Circuits</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">Projectile Motion</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">VijayDashmi Sale</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">Class 10 Maths Master the Main Topics in just 6 LIVEsessions!</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">Buy Any 3 & Get Test Series Free</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">AhaGuru Live! Online Physics course for IIT + JEE + NEET + CBSE</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">mathzap</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">10th anniversary sale</p>
+          
+        </a> <br>
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">Class 11 CBSE</p>
+          
+        </a> <br>
+
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">NEET CRASH COURSE</p>
+          
+        </a> <br>
+
+
+        <a class="tile" href="" target="_blank" >
+          <div class="icon">
+            <img style="width:51px; height:51px;" src="https://play-lh.googleusercontent.com/J3sWRrPa38cBcy2ujRZvxkoNPFZzpi24Z-6ntwAhJsj13R4ZBxE-Pax8rdWqXtE7JxA=w240-h480-rw" alt="">
+          </div>
+          <p class="desc_p">Class 12 - Physics</p>
+          
+        </a> <br>
+
+
+  </div>
+
+  <script src="main.js">
+
+  </script>
+
+
+</body>
+
+</html>
